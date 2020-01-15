@@ -1,4 +1,4 @@
-const text = ['Coming soon','Club of Robotics','present','RoboCore'];
+const text = ['Coming soon','Club of Robotics','presents','RoboCore','2020','get ready to compete'];
 let count = 0;
 let index = 0;
 let currentText = "";
@@ -16,5 +16,5 @@ let letter = "";
     count++;
     index = 0;
   }
-  setTimeout(type, 200);
+  setTimeout(type, 150);
 }());
